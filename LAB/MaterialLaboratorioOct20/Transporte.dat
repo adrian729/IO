@@ -1,0 +1,23 @@
+# Valor de parámetros
+param m= 3;      	         # número de orígenes
+param n= 4;      	         # número de destinos
+param c:			# vector de costes cj
+
+         1         2       3      4:=   		         
+   1     4         7       9      10
+   2     6         4       3      6
+   3     9         6       4      8
+;
+
+param b :=    	# vector de capacidades de produccion
+   1        6            
+   2       10               
+   3        4
+;
+
+param d :=		# vector de demandas 
+ 1   5
+ 2   3
+ 3   8
+ 4   4
+;

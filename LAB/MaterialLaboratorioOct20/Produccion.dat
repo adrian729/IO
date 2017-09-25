@@ -1,0 +1,22 @@
+# Valor de parámetros
+param n= 2;      	           	# número de posibles productos
+param m=3;     	           	# número de recursos
+
+param p:=   		# vector de beneficios pj
+   1   300
+   2   250
+;
+
+param Coef :    	# matriz de coeficientes aij de las restricciones
+	 1     2 :=
+   1                   1     2
+   2                   3     2
+   3                   2     0
+;
+
+param b :=		# vector de términos independientes 
+
+    1   150
+    2   300
+    3   100
+;

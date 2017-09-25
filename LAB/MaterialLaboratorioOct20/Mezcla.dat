@@ -1,0 +1,21 @@
+# Valor de parámetros
+param n= 4;      	         # número de disolventes básicos
+param m1=1 ;  	                 # número componentes limitados inferiormente
+param m2=1 ;  	                 # número componentes limitados superiormente
+param c:=   		         # vector de costes cj
+   1   16
+   2   12
+   3   10
+   4   11
+;
+
+param Coef :    	# matriz de coeficientes en las restricciones
+	                  1             2           3          4  :=
+   1                    180        120        90        60
+   2                      3            2          6           5
+;
+
+param b :=		# vector de términos independientes 
+ 1   90
+ 2   4
+;
